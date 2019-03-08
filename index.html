@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css"
+      rel="stylesheet"
+    />
     <title>The Ice Shelf</title>
 
     <style>
@@ -12,9 +16,8 @@
         min-height: 100vh;
         display: flex;
         width: 100%;
-        align-items: center;
         font-family: "arial";
-        color: #333;
+        color: #555;
       }
 
       a {
@@ -28,44 +31,112 @@
       }
 
       .container {
-        max-width: 700px;
-        margin-left: 120px;
+        max-width: 1024px;
+        padding: 32px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 16px;
+        }
+        .content {
+          flex-direction: column;
+        }
+      }
+
+      .content {
+        display: flex;
+        justify-content: space-between;
       }
 
       .Heading {
         color: #fff;
         padding: 8px;
-        background-image: url('./iceshelf.jpg');
+        background-image: url("./iceshelf.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         letter-spacing: 3px;
         font-weight: 400;
-        opacity: 0.3;
+        opacity: 0;
+        max-width: 240px;
+        animation: fadein 2s forwards;
+        animation-delay: 1s;
+      }
+      .section-list {
+        list-style-type: none;
+        padding-left: 0;
+        padding-right: 32px;
+        margin-bottom: 64px;
+        flex: 1;
       }
 
-      .Experiments {
+      .section-list-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        line-height: 1.8;
+        font-size: 0.9rem;
+      }
+
+      .section-list-item a {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        /* margin: 4px 0; */
+      }
+
+      .section-heading {
         border-bottom: 2px solid lightcoral;
-        margin-bottom: 24px;
-        padding: 8px;
+        display: inline-block;
+        margin-bottom: 12px;
+        width: 80%;
+        padding: 3px;
       }
-      .Experiments_list {
-        list-style-type: none;
-      }
-      .Experiments_list_item {
-        font-style: italic;
+
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 0.3;
+        }
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-
       <h3 class="Heading">THE ICE SHELF</h3>
+      <!-- Experiments, Elsewhere -->
+      <section class="content">
+        <ul class="section-list">
+          <div class="section-heading caps">Experiments</div>
+          <li class="section-list-item">
+            <a target="_blank" href="#">Word Caricature (2019)</a>
+          </li>
+        </ul>
 
-      <div class="Experiments">Experiments</div>
-      <ul class="Experiments_list">
-        <li class="Experiments_list_item">✏️ <a href="#">Word Caricature (2019)</a></li>
-      </ul>
+        <ul class="section-list">
+          <div class="section-heading caps">Comms.</div>
+          <li class="section-list-item">
+            <a target="_blank" href="https://tinyletter.com/theiceshelf">Newsletter</a>
+            <a href="mailto:contact@theiceshelf.com">Inquiries</a>
+          </li>
+        </ul>
+
+        <ul class="section-list">
+          <div class="section-heading caps">Haiku</div>
+          <li class="section-list-item italic">
+            <div>Bands of sunlight reach:</div>
+            <div>Cascading over the towns</div>
+            <div>That don't know each other.</div>
+          </li>
+        </ul>
+      </section>
     </div>
   </body>
 </html>
