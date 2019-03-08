@@ -33,6 +33,9 @@
 
       .container {
         max-width: 1024px;
+        animation: fadein 2.5s forwards;
+        opacity: 0; /* we fade in from this */
+        animation-delay: 0.5s;
         padding: 32px;
         margin: 0 auto;
         width: 100%;
@@ -43,10 +46,14 @@
 
       @media (max-width: 768px) {
         .container {
-          padding: 16px;
+          padding: 24px;
         }
         .content {
           flex-direction: column;
+        }
+
+        .section-heading {
+          width: 100%;
         }
       }
 
@@ -63,10 +70,9 @@
         background-repeat: no-repeat;
         letter-spacing: 3px;
         font-weight: 400;
-        opacity: 0;
+        opacity: 0.3;
         max-width: 240px;
-        animation: fadein 2s forwards;
-        animation-delay: 1s;
+        /* animation-delay: 1s; */
       }
       .section-list {
         list-style-type: none;
@@ -103,7 +109,7 @@
           opacity: 0;
         }
         to {
-          opacity: 0.3;
+          opacity: 1;
         }
       }
     </style>
@@ -124,7 +130,9 @@
         <ul class="section-list">
           <div class="section-heading caps">Comms.</div>
           <li class="section-list-item">
-            <a target="_blank" href="https://tinyletter.com/theiceshelf">Newsletter</a>
+            <a target="_blank" href="https://tinyletter.com/theiceshelf"
+              >Newsletter</a
+            >
             <a href="mailto:contact@theiceshelf.com">Inquiries</a>
           </li>
         </ul>
