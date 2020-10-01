@@ -15,7 +15,6 @@ We build what we feel like building.
 - *Firn* - /Org-mode static site generator/. ([[https://firn.theiceshelf.com/][site]] | [[https://github.com/theiceshelf/firn][code]])
 - *Ari's Garden* - /Digital recipe book/. ([[https://arisgarden.theiceshelf.com/][site]] | [[https://github.com/theiceshelf/arisgarden][code]])
 - *BulletinBoard* - /Local server moodboard/. ([[https://github.com/theiceshelf/bulletinboard][code]])
-- *Mdformat* - /Markdown Formatting tool/. ([[https://github.com/theiceshelf/mdformat][code]])
 - *Poddodger* - /Podcast bulk downloading tool./ ([[https://github.com/theiceshelf/poddodger][code]])
 
 * Community
