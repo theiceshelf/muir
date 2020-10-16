@@ -57,7 +57,7 @@
   :root {
     --c-txt: #efefef;
     --c-sidebar-bg: #333;
-    --c-body-bg: rgb(9, 39, 39);
+    --c-body-bg: rgb(39, 39, 39);
     --c-link: #ffd77b;
     --c-link-hov: #ffb816;
   }
