@@ -19,8 +19,8 @@ We build what we feel like building.
 
 * Community
 
-- [[https://neve.theiceshelf.com/][Neve]] - /Hosted Pleroma instance./
-- [[https://discord.gg/TbgKxYb][Discord]] - /Dev talk, poetry readings, music club, etc./
+# - [[https://neve.theiceshelf.com/][Neve]] - /Hosted Pleroma instance./
+- [[https://discord.gg/TbgKxYb][Discord]] - /Dev, poetry readings, music club, etc./
 
 * Ethic
 
