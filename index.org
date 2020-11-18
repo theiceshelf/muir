@@ -6,16 +6,14 @@
 
 The Ice Shelf is a Studio.
 
-We build what we feel like building.
-
 [[mailto:contact@theiceshelf.com][Say hello]] | [[https://twitter.com/theiceshelf][@theiceshelf]]
 
 * Projects
 
 - *Firn* - /Org-mode static site generator/. ([[https://firn.theiceshelf.com/][site]] | [[https://github.com/theiceshelf/firn][code]])
 - *Ari's Garden* - /Digital recipe book/. ([[https://arisgarden.theiceshelf.com/][site]] | [[https://github.com/theiceshelf/arisgarden][code]])
-- *BulletinBoard* - /Local server moodboard/. ([[https://github.com/theiceshelf/bulletinboard][code]])
-- *Poddodger* - /Podcast bulk downloading tool./ ([[https://github.com/theiceshelf/poddodger][code]])
+# - *BulletinBoard* - /Local server moodboard/. ([[https://github.com/theiceshelf/bulletinboard][code]])
+# - *Poddodger* - /Podcast bulk downloading tool./ ([[https://github.com/theiceshelf/poddodger][code]])
 
 * Community
 
