@@ -92,6 +92,9 @@ main {
   height: 100%;
   overflow: scroll;
   padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 article {

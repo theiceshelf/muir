@@ -4,27 +4,24 @@
 
 * Meta
 
-The Ice Shelf is a Studio.
+Cold Studio.
 
-[[mailto:contact@theiceshelf.com][Say hello]] | [[https://twitter.com/theiceshelf][@theiceshelf]]
+[[mailto:contact@theiceshelf.com][Say hello]] | [[https://twitter.com/theiceshelf][@theiceshelf]] | [[https://notes.theiceshelf.com/devlog][Notes]]
 
 * Projects
 
 - *Firn* - /Org-mode static site generator/. ([[https://firn.theiceshelf.com/][site]] | [[https://github.com/theiceshelf/firn][code]])
 - *Ari's Garden* - /Digital recipe book/. ([[https://arisgarden.theiceshelf.com/][site]] | [[https://github.com/theiceshelf/arisgarden][code]])
-# - *BulletinBoard* - /Local server moodboard/. ([[https://github.com/theiceshelf/bulletinboard][code]])
-# - *Poddodger* - /Podcast bulk downloading tool./ ([[https://github.com/theiceshelf/poddodger][code]])
 
 * Community
 
-# - [[https://neve.theiceshelf.com/][Neve]] - /Hosted Pleroma instance./
-- [[https://discord.gg/TbgKxYb][Discord]] - /Dev, poetry readings, music club, etc./
+- [[https://discord.gg/TbgKxYb][Discord]] - /Development, Paint Night, Music Club, etc./
+- [[https://notes.theiceshelf.com][Cold Notes]] - /Community Write.as instance./
 
 * Ethic
 
 - Slow down.
 - Sleep low to the ground.
-- Stay informed, but not too informed.
 - Contemplate difference.
 - Follow curiousity.
 - Build when the ground feels good.
