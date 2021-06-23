@@ -6,7 +6,7 @@
 
 Cold Studio.
 
-[[mailto:contact@theiceshelf.com][Say hello]] | [[https://twitter.com/theiceshelf][@theiceshelf]] | [[https://notes.theiceshelf.com/devlog][Notes]]
+[[mailto:contact@theiceshelf.com][Say hello]] | [[https://twitter.com/theiceshelf][@theiceshelf]]
 
 * Projects
 
@@ -16,7 +16,6 @@ Cold Studio.
 * Community
 
 - [[https://discord.gg/TbgKxYb][Discord]] - /Development, Paint Night, Music Club, etc./
-- [[https://notes.theiceshelf.com][Cold Notes]] - /Community Write.as instance./
 
 * Ethic
 
